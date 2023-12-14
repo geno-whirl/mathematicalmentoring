@@ -1,0 +1,161 @@
+﻿/* Created by Tomás Lungenstrass, March 2014*/
+
+@font-face {
+    font-family: Letra;
+    src: url(GillSans-Light.ttf);
+}
+@font-face {
+    font-family: Letra-Bold;
+    src: url(GillSans.ttf);
+}
+
+/*Global*/
+
+h1 {
+    font-family:  Letra;
+    font-weight: 300;
+    
+}
+
+a {
+    color: #000070;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Specific*/
+
+body {
+    margin-top: 25px;
+    background: #f0e5c0;
+    
+    font-family:  Letra;
+    font-weight: 200;
+}
+
+#container {
+    width: 950px;
+    margin: auto;
+    margin-top: 0px;
+    
+    border: 2px solid #a09570;
+    background: #ffffff;
+}
+
+#header {
+    height: 150px;
+}
+
+#header h1 {
+    margin: 0px 80px;
+    padding: 50px 0px 20px;
+    
+    text-align: center;
+    border-bottom: 4px solid #a01020;
+}
+
+#header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.image {
+    float: left;
+    margin-left: 90px;
+}
+
+.image img {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+#index_image {
+    margin-bottom: 35px;
+}
+
+#index_image img {
+    
+}
+
+#contact_image {
+    margin-bottom: 55px;
+}
+
+#links {
+    margin: 35px 80px 30px;
+    float: left;
+}
+
+#links p {
+    font-size: 24pt;
+}
+
+#contact {
+    margin: 35px 80px 30px;
+    float: left;
+}
+
+.contact_title {
+    font-family: Letra-Bold;
+}
+
+.contact_title p {
+    margin: 15px 0px 3px;
+}
+
+.contact_content p {
+    margin: 0px;
+}
+
+
+#interests {
+    margin: 45px 70px 35px;
+    clear: both;
+    
+    font-size: 20px;
+}
+
+.interests_title {
+    float: left;
+    clear: left;
+    margin: 0px 8px 20px;
+    
+    font-family: Letra-Bold;
+}
+
+.interests_content {
+    margin: 0px 0px 20px;
+}
+
+.publications {
+    margin: 0px 90px 30px;
+}
+
+.pub_title {
+    margin: 0px 80px 0px;
+    font-size: 24pt;
+}
+
+.pub_title p {
+    margin: 15px 0px 3px;
+}
+
+#footer {
+    clear:both;
+}
+
+#footer p {
+    text-align: center;
+    margin: 0px;
+}
+
+#update {
+    margin-top: 8px;
+    
+    font-style: italic;
+    font-size: 0.7em;
+}
