@@ -1,330 +1,335 @@
-@font-face {
-  font-family: Letra;
-  src: url(Yoga\ Sans\ -\ Light.ttf);
+﻿@font-face {
+    font-family: Letra;
+    src: url(Yoga\ Sans\ -\ Light.ttf);
 }
 
 @font-face {
-  font-family: Letra-Bold;
-  src: url(Yoga\ Sans\ -\ Bold.ttf);
+    font-family: Letra-Bold;
+    src: url(Yoga\ Sans\ -\ Bold.ttf);
+}
+
+@font-face {
+    font-family: Letra-Italic;
+    src: url(Yoga\ Sans\ -\ Light\ Italic.ttf);
 }
 
 a {
-  color: var(--white, #ffffff);
+    color: var(--white, #ffffff);
 }
 
 .escritorio,
 .escritorio * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .escritorio {
-  background: var(--white, #ffffff);
-  width: 100%;
-  height: 62.5rem;
-  position: relative;
-  overflow: hidden;
+    background: var(--white, #ffffff);
+    width: 100%;
+    height: 62.5rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .relativecontainer {
-  height: 62.5rem;
-  width: 106.50875rem;
-  margin: auto;
-  position: relative;
+    height: 62.5rem;
+    width: 106.50875rem;
+    margin: auto;
+    position: relative;
 }
 
 .rectangle-1 {
-  background: var(--blue, #153160);
-  width: 100%;
-  height: 24.260625rem;
-  position: absolute;
-  left: 0rem;
-  top: 38.239375rem;
+    background: var(--blue, #153160);
+    width: 100%;
+    height: 24.260625rem;
+    position: absolute;
+    left: 0rem;
+    top: 38.239375rem;
 }
 
 .navbar {
-  background: var(--gray, #353535);
-  width: 100%;
-  height: 5.62125rem;
-  position: absolute;
-  left: 0rem;
-  top: 0rem;
+    background: var(--gray, #353535);
+    width: 100%;
+    height: 5.62125rem;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
 }
 
 .ingeniero {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: absolute;
-  left: 71.9675rem;
-  top: 46.9675rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: absolute;
+    left: 71.9675rem;
+    top: 46.9675rem;
 }
 
 .cole-polytechnique-de-paris {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra-Bold, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: absolute;
-  left: 71.9675rem;
-  top: 44.00875rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra-Bold, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: absolute;
+    left: 71.9675rem;
+    top: 44.00875rem;
 }
 
 .pontificia-universidad-cat-lica {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra-Bold, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: absolute;
-  left: 50.96125rem;
-  top: 44.00875rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra-Bold, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: absolute;
+    left: 50.96125rem;
+    top: 44.00875rem;
 }
 
 .ingeniero2 {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: absolute;
-  left: 50.96125rem;
-  top: 46.9675rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: absolute;
+    left: 50.96125rem;
+    top: 46.9675rem;
 }
 
 .mag-ster-en-matem-ticas {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: absolute;
-  left: 50.96125rem;
-  top: 49.63rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: absolute;
+    left: 50.96125rem;
+    top: 49.63rem;
 }
 
 .doctor-en-matem-ticas {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: absolute;
-  left: 50.96125rem;
-  top: 52.293125rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: absolute;
+    left: 50.96125rem;
+    top: 52.293125rem;
 }
 
 .tom-s-lungenstrass {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra-Bold, sans-serif;
-  font-size: 1.479290246963501rem;
-  line-height: 2.07125rem;
-  font-weight: 400;
-  position: absolute;
-  left: 10.650625rem;
-  top: 1.775rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra-Bold, sans-serif;
+    font-size: 1.479290246963501rem;
+    line-height: 2.07125rem;
+    font-weight: 400;
+    position: absolute;
+    left: 10.650625rem;
+    top: 1.775rem;
 }
 
 .clases-particulares {
-  color: var(--blue, #153160);
-  text-align: left;
-  font-family: Letra-Bold, sans-serif;
-  font-size: 1.7751480340957642rem;
-  line-height: 2.366875rem;
-  font-weight: 400;
-  position: absolute;
-  left: 50.81375rem;
-  top: 16.34625rem;
+    color: var(--blue, #153160);
+    text-align: left;
+    font-family: Letra-Bold, sans-serif;
+    font-size: 1.7751480340957642rem;
+    line-height: 2.366875rem;
+    font-weight: 400;
+    position: absolute;
+    left: 50.81375rem;
+    top: 16.34625rem;
 }
 
 .grupos-de-hasta-6-alumnos {
-  color: var(--red, #d12318);
-  text-align: left;
-  font-family: Letra-Bold, sans-serif;
-  font-size: 1.479290246963501rem;
-  line-height: 2.07125rem;
-  font-weight: 400;
-  position: absolute;
-  left: 50.96125rem;
-  top: 29.068125rem;
+    color: var(--red, #d12318);
+    text-align: left;
+    font-family: Letra-Bold, sans-serif;
+    font-size: 1.479290246963501rem;
+    line-height: 2.07125rem;
+    font-weight: 400;
+    position: absolute;
+    left: 50.96125rem;
+    top: 29.068125rem;
 }
 
 .preparaci-n-dedicada-paes-competencia-matem-ticas-2-m-2 {
-  color: var(--black, #000000);
-  text-align: left;
-  font-family: Letra-Bold, sans-serif;
-  font-size: 2.662722110748291rem;
-  line-height: 2.95875rem;
-  font-weight: 400;
-  position: absolute;
-  left: 50.739375rem;
-  top: 19.89625rem;
+    color: var(--black, #000000);
+    text-align: left;
+    font-family: Letra-Bold, sans-serif;
+    font-size: 2.662722110748291rem;
+    line-height: 2.95875rem;
+    font-weight: 400;
+    position: absolute;
+    left: 50.739375rem;
+    top: 19.89625rem;
 }
 
 .button {
-  background: var(--red, #d12318);
-  padding: 0.739375rem 1.183125rem 0.739375rem 1.183125rem;
-  display: flex;
-  flex-direction: row;
-  gap: 0.591875rem;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 86.6125rem;
-  top: 1.183125rem;
+    background: var(--red, #d12318);
+    padding: 0.739375rem 1.183125rem 0.739375rem 1.183125rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.591875rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 86.6125rem;
+    top: 1.183125rem;
 }
 
 .contactar {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra-Bold, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: relative;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra-Bold, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: relative;
 }
 
 .image {
-  width: 35.79875rem;
-  height: 28.994375rem;
-  position: absolute;
-  left: 10.946875rem;
-  top: 9.245625rem;
-  object-fit: cover;
+    width: 35.79875rem;
+    height: 28.994375rem;
+    position: absolute;
+    left: 10.946875rem;
+    top: 9.245625rem;
+    object-fit: cover;
 }
 
 .inscripciones-e-interesados {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: "YogaSansOtw03LightItalic-Regular", sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: absolute;
-  left: 13.31375rem;
-  top: 49.334375rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra-Italic, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: absolute;
+    left: 13.31375rem;
+    top: 49.334375rem;
 }
 
 .tom-s-lungenstrass2 {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra-Bold, sans-serif;
-  font-size: 1.479290246963501rem;
-  line-height: 2.07125rem;
-  font-weight: 400;
-  position: absolute;
-  left: 13.31375rem;
-  top: 44.00875rem;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra-Bold, sans-serif;
+    font-size: 1.479290246963501rem;
+    line-height: 2.07125rem;
+    font-weight: 400;
+    position: absolute;
+    left: 13.31375rem;
+    top: 44.00875rem;
 }
 
 .contact-number {
-  display: flex;
-  flex-direction: row;
-  gap: 0.8875rem;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 13.31375rem;
-  top: 52.293125rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8875rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 13.31375rem;
+    top: 52.293125rem;
 }
 
 .icon-1 {
-  flex-shrink: 0;
-  width: 1.775rem;
-  height: 1.775rem;
-  position: relative;
-  overflow: hidden;
+    flex-shrink: 0;
+    width: 1.775rem;
+    height: 1.775rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .disen-o-web-v-2-04 {
-  width: 1.474375rem;
-  height: 1.479375rem;
-  position: absolute;
-  left: calc(50% - 0.739375rem);
-  top: calc(50% - 0.739375rem);
-  overflow: visible;
+    width: 1.474375rem;
+    height: 1.479375rem;
+    position: absolute;
+    left: calc(50% - 0.739375rem);
+    top: calc(50% - 0.739375rem);
+    overflow: visible;
 }
 
 ._569-3491-1048 {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: relative;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: relative;
 }
 
 .contact-mail {
-  display: flex;
-  flex-direction: row;
-  gap: 0.8875rem;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  position: absolute;
-  left: 13.31375rem;
-  top: 54.955625rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8875rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 13.31375rem;
+    top: 54.955625rem;
 }
 
 .icon-2 {
-  flex-shrink: 0;
-  width: 1.775rem;
-  height: 1.775rem;
-  position: relative;
-  overflow: hidden;
+    flex-shrink: 0;
+    width: 1.775rem;
+    height: 1.775rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .disen-o-web-v-2-05 {
-  width: 1.479375rem;
-  height: 1.120625rem;
-  position: absolute;
-  left: calc(50% - 0.739375rem);
-  top: calc(50% - 0.591875rem);
-  overflow: visible;
+    width: 1.479375rem;
+    height: 1.120625rem;
+    position: absolute;
+    left: calc(50% - 0.739375rem);
+    top: calc(50% - 0.591875rem);
+    overflow: visible;
 }
 
 .tomas-mathematicalmentoring-com {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font-family: Letra, sans-serif;
-  font-size: 1.1834321022033691rem;
-  line-height: 1.775rem;
-  font-weight: 400;
-  position: relative;
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: Letra, sans-serif;
+    font-size: 1.1834321022033691rem;
+    line-height: 1.775rem;
+    font-weight: 400;
+    position: relative;
 }
 
 .divider-1 {
-  border-style: solid;
-  border-color: var(--blue, #153160);
-  border-width: 0.07375rem 0 0 0;
-  width: 15.384375rem;
-  height: 0rem;
-  position: absolute;
-  left: 10.650625rem;
-  top: 42.6775rem;
-  transform-origin: 0 0;
-  transform: rotate(90deg) scale(1, 1);
+    border-style: solid;
+    border-color: var(--blue, #153160);
+    border-width: 0.07375rem 0 0 0;
+    width: 15.384375rem;
+    height: 0rem;
+    position: absolute;
+    left: 10.650625rem;
+    top: 42.6775rem;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
 }
 
 .divider-2 {
-  border-style: solid;
-  border-color: var(--blue, #153160);
-  border-width: 0.07375rem 0 0 0;
-  width: 15.384375rem;
-  height: 0rem;
-  position: absolute;
-  left: 48.003125rem;
-  top: 42.6775rem;
-  transform-origin: 0 0;
-  transform: rotate(90deg) scale(1, 1);
+    border-style: solid;
+    border-color: var(--blue, #153160);
+    border-width: 0.07375rem 0 0 0;
+    width: 15.384375rem;
+    height: 0rem;
+    position: absolute;
+    left: 48.003125rem;
+    top: 42.6775rem;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
 }
