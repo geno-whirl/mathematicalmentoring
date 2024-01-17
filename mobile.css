@@ -1,0 +1,284 @@
+.celular,
+.celular * {
+  box-sizing: border-box;
+}
+.celular {
+  background: #ffffff;
+  width: 375px;
+  height: 1273px;
+  position: relative;
+  overflow: hidden;
+}
+.clases-particulares {
+  color: #153160;
+  text-align: center;
+  font-family: "YogaSansWebW03Bold-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 106.5px);
+  top: 96px;
+}
+.preparaci-n-paes-competencia-matem-ticas-2-m-2 {
+  color: #000000;
+  text-align: center;
+  font-family: "YogaSansWebW03Bold-Regular", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 147.5px);
+  top: 140px;
+  width: 296px;
+}
+.image-1 {
+  width: 394px;
+  height: 309px;
+  position: absolute;
+  left: calc(50% - 196.5px);
+  bottom: 628px;
+  object-fit: cover;
+}
+.rectangle-1 {
+  background: var(--blue, #153160);
+  width: 375px;
+  height: 628px;
+  position: absolute;
+  right: 0px;
+  top: 645px;
+}
+.ingeniero {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansOtw03Light-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 893px;
+}
+.cole-polytechnique-de-paris {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansWebW03Bold-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 853px;
+}
+.pontificia-universidad-cat-lica {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansWebW03Bold-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 693px;
+}
+.ingeniero2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansOtw03Light-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 733px;
+}
+.mag-ster-en-matem-ticas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansOtw03Light-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 769px;
+}
+.doctor-en-matem-ticas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansOtw03Light-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 805px;
+}
+.divider-1 {
+  border-style: solid;
+  border-color: #305086;
+  border-width: 1px 0 0 0;
+  width: 303px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - -151.5px);
+  top: 953px;
+  transform-origin: 0 0;
+  transform: rotate(180deg) scale(1, 1);
+}
+.inscripciones-e-interesados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansOtw03LightItalic-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 1053px;
+}
+.tom-s-lungenstrass {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansWebW03Bold-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 989px;
+}
+.contact-number {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 50px;
+  top: 1093px;
+}
+.icon-1 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.disen-o-web-v-2-04 {
+  width: 19.93px;
+  height: 20px;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  overflow: visible;
+}
+._569-3491-1048 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansOtw03Light-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.contact-mail {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 50px;
+  top: 1129px;
+}
+.icon-2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.disen-o-web-v-2-05 {
+  width: 20px;
+  height: 15.15px;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 8px);
+  overflow: visible;
+}
+.tomas-mathematicalmentoring-com {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansOtw03Light-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.grupos-de-hasta-6-alumnos {
+  color: var(--red, #d12318);
+  text-align: center;
+  font-family: "YogaSansWebW03Bold-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 142.5px);
+  top: 276px;
+}
+.rectangle-2 {
+  background: #353535;
+  width: 375px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.tom-s-lungenstrass2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansWebW03Bold-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: sticky;
+  left: calc(50% - 110.5px);
+  top: 16px;
+}
+.group-4 {
+  position: sticky;
+  left: 0px;
+  top: 599px;
+}
+.rectangle-22 {
+  background: #353535;
+  width: 375px;
+  height: 68px;
+  position: absolute;
+  left: 0px;
+  top: 599px;
+}
+.frame-1 {
+  background: var(--red, #d12318);
+  padding: 10px 16px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 303px;
+  position: absolute;
+  left: calc(50% - 151.5px);
+  top: 611px;
+}
+.contactar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "YogaSansWebW03Bold-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}

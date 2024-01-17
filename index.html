@@ -14,7 +14,7 @@
 
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <link rel="stylesheet" href="./vars.css" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" id="styleSheet" href="" />
 
   <style>
     a,
@@ -41,88 +41,35 @@
 </head>
 
 <body>
-  <div class="escritorio">
-    <div class="rectangle-1"></div>
-    <div class="navbar"></div>
-    <div class="relativecontainer">
-      <div class="ingeniero">Ingeniero</div>
-      <div class="cole-polytechnique-de-paris">
-        École Polytechnique de Paris
-      </div>
-      <div class="pontificia-universidad-cat-lica">
-        Pontificia Universidad Católica
-      </div>
-      <div class="ingeniero2">Ingeniero</div>
-      <div class="mag-ster-en-matem-ticas">Magíster en Matemáticas</div>
-      <div class="doctor-en-matem-ticas">Doctor en Matemáticas</div>
-      <div class="tom-s-lungenstrass">MATHEMATICAL MENTORING</div>
-      <div class="clases-particulares">CLASES PARTICULARES</div>
-      <div class="grupos-de-hasta-6-alumnos">GRUPOS DE HASTA 6 ALUMNOS</div>
-      <div class="preparaci-n-dedicada-paes-competencia-matem-ticas-2-m-2">
-        PREPARACIÓN DEDICADA PAES
-        <br />
-        COMPETENCIA MATEMÁTICA 2 (M2)
-      </div>
-      <div class="button">
-        <div class="contactar">
-          <a
-            href="https://wa.me/56934911048?text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20las%20clases%20de%20preparaci%C3%B3n%20PAES%20matem%C3%A1ticas.%20Gracias.">CONTACTAR</a>
-          <!-- <div class="contactar"><a href="mailto:tomas@mathematicalmentoring.com?subject=Preparación PAES">CONTACTAR</a> -->
-        </div>
-      </div>
-      <img class="image" src="image0.png" />
-      <div class="inscripciones-e-interesados">
-        Inscripciones e interesados:
-      </div>
-      <div class="tom-s-lungenstrass2">TOMÁS LUNGENSTRASS POULSEN</div>
-      <div class="contact-number">
-        <div class="icon-1">
-          <svg class="disen-o-web-v-2-04" width="20" height="20" viewBox="0 0 20 20" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_3_2)">
-              <path
-                d="M1.30955 15.2598C1.12366 15.9189 0.946224 16.5695 0.768784 17.2286L-0.000122006 20L0.920875 19.7634C2.239 19.417 3.55712 19.0706 4.87525 18.7241C4.99354 18.6903 5.14563 18.665 5.33152 18.7664C6.71724 19.5015 8.20436 19.8817 9.74217 19.9071C12.3193 19.9578 14.6091 19.1044 16.5694 17.3975C19.7548 14.6261 20.8195 9.97043 19.1465 6.0921C17.5242 2.31517 13.9923 0 9.97875 0C9.66612 0 9.35349 0.016899 9.04086 0.0422476C6.45531 0.270384 4.26688 1.38572 2.52628 3.34601C-0.295855 6.53147 -0.802826 11.0182 1.25041 14.7782C1.3349 14.9387 1.3518 15.0908 1.30955 15.2598ZM1.318 9.46346C1.47854 6.9286 2.55163 4.83312 4.51192 3.22771C6.17647 1.85889 8.15366 1.20828 10.3843 1.29278C14.3641 1.44487 17.8537 4.51204 18.4959 8.43261C19.1634 12.4884 17.1101 16.2907 13.4008 17.8961C12.2517 18.3946 11.0941 18.6396 9.95341 18.6396C8.45784 18.6396 6.97073 18.2172 5.50896 17.3722C5.37377 17.2962 5.26393 17.2793 5.11183 17.3215C4.40207 17.5158 3.69232 17.7017 2.98256 17.8876L1.85877 18.1665L2.16295 17.0511C2.35729 16.3329 2.55163 15.6316 2.74597 14.9303C2.77132 14.8289 2.76287 14.7782 2.71217 14.6853C1.67288 13.0798 1.20816 11.3223 1.318 9.4719V9.46346Z"
-                fill="white" />
-              <path
-                d="M6.29483 10.6041C7.79884 12.632 9.55634 13.8995 11.6687 14.4825C12.6066 14.7444 13.3924 14.643 14.1191 14.1783C14.6683 13.8234 14.9133 13.3164 14.9049 12.5306C14.9049 12.4715 14.888 12.463 14.8711 12.4546L14.7612 12.3954C14.1022 12.0575 13.4178 11.711 12.7165 11.4237C12.6151 11.3815 12.5475 11.3899 12.4545 11.5251C12.294 11.7364 12.125 11.9476 11.956 12.1504L11.6941 12.4799C11.5589 12.6489 11.3138 12.8179 10.9421 12.6658C9.4127 12.0575 8.20442 11.0182 7.34257 9.5733C7.18203 9.30292 7.19893 9.05788 7.40172 8.8213C7.62141 8.55936 7.82419 8.28898 8.01008 8.01859C8.09458 7.9003 8.09458 7.7989 8.03543 7.66371C7.78195 7.07225 7.53691 6.49768 7.30877 5.90621C7.12288 5.42459 6.96234 5.42459 6.79335 5.46684H6.73421C6.73421 5.46684 6.65816 5.46684 6.62436 5.46684C6.10894 5.46684 6.016 5.53444 5.70337 5.89776C5.06965 6.62442 4.89221 7.46092 5.15415 8.46642C5.35694 9.26067 5.83011 9.92818 6.32863 10.6041H6.29483Z"
-                fill="white" />
-            </g>
-            <defs>
-              <clipPath id="clip0_3_2">
-                <rect width="19.9324" height="20" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-        </div>
-        <div class="_569-3491-1048"><a
-            href="https://wa.me/56934911048?text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20las%20clases%20de%20preparaci%C3%B3n%20PAES%20matem%C3%A1ticas.%20Gracias.">+569
-            3491 1048</a></div>
-      </div>
-      <div class="contact-mail">
-        <div class="icon-2">
-          <svg class="disen-o-web-v-2-05" width="20" height="16" viewBox="0 0 20 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_3_7)">
-              <path
-                d="M0 15.15H20V0H0V15.15ZM9.99578 6.90325L1.90114 1.23363H18.0989L9.99578 6.90325ZM18.7664 2.26447V13.9163H1.23363V2.26447L9.64935 8.15378C9.86058 8.29742 10.1479 8.29742 10.3591 8.15378L18.7748 2.26447H18.7664Z"
-                fill="white" />
-            </g>
-            <defs>
-              <clipPath id="clip0_3_7">
-                <rect width="20" height="15.15" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-        </div>
-        <div class="tomas-mathematicalmentoring-com">
-          <a href="mailto:tomas@mathematicalmentoring.com?subject=Preparación PAES">tomas@mathematicalmentoring.com</a>
-        </div>
-      </div>
-      <div class="divider-1"></div>
-      <div class="divider-2"></div>
-    </div>
+  <div id="content"></div>
 
-  </div>
+  <script>
+    function isMobileDevice() {
+      return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    }
+
+    function setContent() {
+      var contentDiv = document.getElementById('content');
+      var styleSheet = document.getElementById('styleSheet');
+
+      var contentUrl = isMobileDevice() ? 'mobile.html' : 'desktop.html';
+      var cssUrl = isMobileDevice() ? 'mobile.css' : 'desktop.css';
+
+      fetch(contentUrl)
+        .then(response => response.text())
+        .then(data => {
+          contentDiv.innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error fetching content:', error);
+        });
+
+      // Dynamically change the stylesheet link
+      styleSheet.href = cssUrl;
+    }
+
+    window.onload = setContent;
+  </script>
 </body>
 
 </html>
