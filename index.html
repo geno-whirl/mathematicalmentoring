@@ -47,13 +47,18 @@
     function isMobileDevice() {
       return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
     }
+    function isSmallViewport() {
+      return window.innerWidth < 1700;
+    }
 
     function setContent() {
       var contentDiv = document.getElementById('content');
       var styleSheet = document.getElementById('styleSheet');
 
-      var contentUrl = isMobileDevice() ? 'mobile.html' : 'desktop.html';
-      var cssUrl = isMobileDevice() ? 'mobile.css' : 'desktop.css';
+      var checkFunction = isSmallViewport
+
+      var contentUrl = checkFunction() ? 'mobile.html' : 'desktop.html';
+      var cssUrl = checkFunction() ? 'mobile.css' : 'desktop.css';
 
       fetch(contentUrl)
         .then(response => response.text())
